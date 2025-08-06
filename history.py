@@ -237,7 +237,7 @@ def main():
     api = HomeAssistantAPI("http://192.168.1.102:8123", token)
     
     # Fetch and store history for multiple entities
-    entities = ["sensor.meter_voltage_r", "sensor.ac_active_power"]
+    entities = ["sensor.phvpha", "sensor.w"]
     
     for entity_id in entities:
         success = api.fetch_and_store_history(entity_id)
