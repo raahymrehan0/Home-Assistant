@@ -219,18 +219,6 @@ while True:
     time.sleep(1)
 ```
 
-## Contributing
-
-1. Fork the repository
-2. Create a feature branch
-3. Make your changes
-4. Add tests if applicable
-5. Submit a pull request
-
-## License
-
-This project is open source. Feel free to use and modify as needed.
-
 ## Troubleshooting
 
 ### Common Issues
@@ -259,13 +247,3 @@ This project is open source. Feel free to use and modify as needed.
 4. Click "Create Token"
 5. Give it a name and copy the generated token
 6. Add it to your `.env` file
-
-## Future Enhancements
-
-- Data visualization with matplotlib/plotly
-- Real-time data streaming
-- Data aggregation and analytics
-- Web dashboard interface
-- Support for multiple Home Assistant instances
-- Data retention policies
-- Backup and restore functionality
